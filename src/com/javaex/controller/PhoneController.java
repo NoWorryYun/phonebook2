@@ -96,7 +96,7 @@ public class PhoneController extends HttpServlet {
 		} else if("update".equals(action)) {
 			
 			//파라미터에서 값 꺼내기(name, hp, company)
-			int personId = Integer.parseInt(request.getParameter("personId"));
+			int personId = Integer.parseInt(request.getParameter("id"));
 			String name = request.getParameter("name");
 			String hp = request.getParameter("hp");
 			String company = request.getParameter("company");
